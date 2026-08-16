@@ -5,24 +5,27 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Marika’s Celebration </title>
 
-<!-- Open Graph / Meta tag per la condivisione sui social e chat -->
+
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://www.tuosito.com/invito-marika">
-<meta property="og:title" content="Invito al compleanno di Marika 🎂">
-<meta property="og:description" content="Partecipa alla festa! Clicca qui per vedere i dettagli dell'evento e confermare la presenza.">
-<meta property="og:image" content="https://www.tuosito.com/images/anteprima-invito.jpg">
+<meta property="og:url" content="https://franko0z.github.io/inv-marika/">
+<meta property="og:title" content="Marika’s Celebration">
+<meta property="og:description" content="Un traguardo importante, una serata speciale. Sei invitato/a a festeggiare i 18 anni di Marika.">
+<meta property="og:image" content="https://franko0z.github.io/inv-marika/img/anteprima-image.png">
 
-<!-- Twitter / X -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:url" content="https://www.tuosito.com/invito-marika">
-<meta name="twitter:title" content="Invito al compleanno di Marika 🎂">
-<meta name="twitter:description" content="Partecipa alla festa! Clicca qui per vedere i dettagli dell'evento e confermare la presenza.">
-<meta name="twitter:image" content="https://www.tuosito.com/images/anteprima-invito.jpg">
+<link rel="apple-touch-icon" sizes="180x180" href="img/icone/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/icone/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/icone/favicon-16x16.png">
+<link rel="manifest" href="img/icone/site.webmanifest">
 </head>
-<body style="margin:0;padding:0;">
-
+<body>
 <div id="app-root">
 <style>
+     html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+  }
   #app-root {
     --gold: #c9a35f;
     --gold-light: #e8cf9e;
@@ -295,16 +298,18 @@
     pointer-events: none;
   }
 
-  #app-root .close-btn {
+ #app-root .close-btn {
     position: absolute;
-    top: -18px;
-    right: -6px;
-    width: 34px; height: 34px;
+    top: -22px;
+    right: -22px;
+    width: 46px;
+    height: 46px;
     border-radius: 50%;
     background: var(--ink-2);
     border: 1px solid rgba(201,163,95,0.5);
     color: var(--gold-light);
-    font-size: 16px;
+    font-size: 22px;
+    line-height: 1;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -314,7 +319,7 @@
     appearance: none;
     -webkit-tap-highlight-color: transparent;
     touch-action: manipulation;
-  }
+}
   #app-root .close-btn:hover { background: #222; transform: rotate(90deg); }
   #app-root .close-btn:focus-visible { box-shadow: 0 0 0 2px var(--gold-light); }
 
